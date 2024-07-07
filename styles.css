@@ -73,7 +73,9 @@ body {
     background-color: #1a1a1a;
     color: #e0e0e0;
     position: relative;
-    background: url('fc-24-gameplay.jpg') no-repeat center center fixed;
+    background-image: url('fc-24-gameplay.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
-    cursor: url('./cursor.png'), auto;
 }
